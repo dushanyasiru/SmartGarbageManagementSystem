@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "930564646080",
+    "firebase_url": "https://smart-garbage-management-app.firebaseio.com",
+    "project_id": "smart-garbage-management-app",
+    "storage_bucket": "smart-garbage-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930564646080:android:8c443340f01ac469f0f925",
+        "android_client_info": {
+          "package_name": "com.example.smartgarbagemanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930564646080-g4hif06ek8qanles2bq8h1fvdkro3ece.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartgarbagemanagementsystem",
+            "certificate_hash": "8fd630a1dd909265c0957399cbf3ec0a85bdceb6"
+          }
+        },
+        {
+          "client_id": "930564646080-i31e5enb49umv1232lr6ffjehcuvr2rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeC2qs8K6OtSrAMg7ZjhzrM-a0B0jqtvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930564646080-i31e5enb49umv1232lr6ffjehcuvr2rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

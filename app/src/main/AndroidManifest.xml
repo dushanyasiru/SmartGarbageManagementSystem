@@ -3,7 +3,7 @@
     package="com.example.smartgarbagemanagementsystem">
 
 
-
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
 
     <application
         android:allowBackup="true"

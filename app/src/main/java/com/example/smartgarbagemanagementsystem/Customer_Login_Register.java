@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -109,6 +110,8 @@ public class Customer_Login_Register extends AppCompatActivity
                         {
                             if(task.isSuccessful())
                             {
+                                Intent QrScanIntent = new Intent(Customer_Login_Register.this, QrActivity.class);
+                                startActivity(QrScanIntent);
                                 Toast.makeText(Customer_Login_Register.this,"Customer Register Successful...",Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
                             }
@@ -145,6 +148,8 @@ public class Customer_Login_Register extends AppCompatActivity
                         {
                             if(task.isSuccessful())
                             {
+                                Intent QrScanIntent = new Intent(Customer_Login_Register.this, QrActivity.class);
+                                startActivity(QrScanIntent);
                                 Toast.makeText(Customer_Login_Register.this,"Customer Login Successful...",Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
                             }

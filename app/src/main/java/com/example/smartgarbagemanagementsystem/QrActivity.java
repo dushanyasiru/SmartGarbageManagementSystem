@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class QrActivity extends AppCompatActivity {
 
     public static TextView resultTextView;
@@ -29,5 +32,11 @@ public class QrActivity extends AppCompatActivity {
 
             }
         });
+
+
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("GarbageBinNumber");
+
+        myRef.setValue("Hello, World!");
     }
 }
